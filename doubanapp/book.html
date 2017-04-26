@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1"/>
+    <title></title>
+    <link rel="stylesheet" href="css/book.css" type="text/css" />
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/vue.js"></script>
+</head>
+<body>
+  <div id="book">
+      <div class="header">
+          <h2 class="h2">书影音</h2>
+          <div class="imgs">
+            <img class="s1"src="./images/search.jpg" />
+            <img class="s2"src="./images/info.jpg" />
+            <div class="clear"></div>
+          </div>
+      </div>
+      <div class="clear"></div>
+     <navheader>
+     </navheader>
+
+      <booklist title="新书速递">
+          <ul slot="bookcontent" class="bookt book-container">
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/1好好学习.jpg" alt="好好学习" />好好学习
+                  </a>
+                  <div class="item-rating">
+                    <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                      <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/2从行动开始.jpg" alt="从行动开始"/>从行动开始
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.2">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/3请停止无效努力.jpg" alt="请停止无效努力" />请停止无效努力
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/4结构思考力.jpg" alt="结构思考力"/>结构思考力
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/5微习惯.jpg" alt="微习惯" />微习惯
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.8">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                      </span>
+                          <span>9.5</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/6让未来现在就来.jpg" alt="让未来现在就来" />让未来现在就来
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.1">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/7成功心理学.jpg" alt="成功心理学"/>成功心理学
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/8内向者沟通圣经.jpg" alt="内向者沟通圣经" />内向者沟通圣经
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/9星星上的人.jpg" alt="星星上的人"/>星星上的人
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/10彩色的中国.jpg" alt="彩色的中国"/>彩色的中国
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </booklist>
+      <div class="xuanchuan">
+          <a href="https://book.douban.com"><img class="xc" src="./images/zhounianqing.jpg" />逛豆瓣，一站式拥有美好生活
+          </a>
+      </div>
+
+      <booklist title="最受关注的虚构类图书">
+          <ul slot="bookcontent" class="bookt">
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/11看见看不见.jpg" alt="看见看不见"/>看见看不见
+                  </a>
+                  <div class="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/12过日子.jpg" alt="过日子" />过日子
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.2">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/13你远比想象中强大.jpg" alt="你远比想象中强大" />你远比想象中强大
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/14黑骏马.jpg" alt="黑骏马" />黑骏马
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/15山知道.jpg" alt="山知道" />山知道
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.8">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                      </span>
+                          <span>9.5</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/16世界的凛冬.jpg" alt="世界的凛冬"/>世界的凛冬
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.1">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/17散步去.jpg" alt="散步去" />散步去
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/18方向.jpg" alt="方向" />方向
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/19呼吸课.jpg" alt="呼吸课" />呼吸课
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/20地下铁道.jpg" alt="地下铁道" />地下铁道
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </booklist>
+      <booklist title="最受关注的非虚构类图书">
+          <ul slot="bookcontent" class="bookt">
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/1好好学习.jpg" alt="好好学习" />好好学习
+                  </a>
+                  <div class="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/2从行动开始.jpg" alt="从行动开始"/>从行动开始
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.2">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/3请停止无效努力.jpg" alt="请停止无效努力" />请停止无效努力
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/4结构思考力.jpg" alt="结构思考力"/>结构思考力
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/5微习惯.jpg" alt="微习惯" />微习惯
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.8">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                      </span>
+                          <span>9.5</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/6让未来现在就来.jpg" alt="让未来现在就来" />让未来现在就来
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.1">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/7成功心理学.jpg" alt="成功心理学"/>成功心理学
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/8内向者沟通圣经.jpg" alt="内向者沟通圣经" />内向者沟通圣经
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/9星星上的人.jpg" alt="星星上的人" />星星上的人
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/10彩色的中国.jpg" alt="彩色的中国" />彩色的中国
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </booklist>
+
+      <booklist title="图书资讯">
+          <template slot="bookcontent">
+              <div class="des">
+                 <a href="https://book.douban.com/">
+                     <h4>生命的真相:一只价值4万元的小白鼠是如何被打造的</h4>
+                     <p>一只小鼠价值几何？根据某宝标价，实验小白鼠每只1.5元，呆萌的小仓鼠9.9包邮，圆滚滚的可爱龙猫也不超过千元。它动作矫健、体态匀称，没有米
+                         老鼠名气那么大。。。</p>
+                 </a>
+              </div>
+              <div class="side"><img src="./images/tianjiawu.png" /></div>
+          </template>
+      </booklist>
+      <booklist title="畅销图书榜">
+          <ul slot="bookcontent" class="bookt">
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/00物尽其用.jpg" alt="物尽其用" />物尽其用
+                  </a>
+                  <div class="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/01恋情的终结.jpg" alt="恋情的终结" />恋情的终结
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.2">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/02村上春树.jpg" alt="村上春树" />村上春树
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/03别样的色彩.jpg" alt="别样的色彩" />别样的色彩
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/04困窘的潇洒.jpg" alt="困窘的潇洒" />困窘的潇洒
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.8">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                      </span>
+                          <span>9.5</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/05斜阳.jpg" alt="斜阳" />斜阳
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.1">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/06此生是我吗.jpg" alt="此生是我吗" />此生是我吗
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/07未来简史.jpg" alt="未来简史" />未来简史
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/08我心深处.jpg" alt="我心深处" />我心深处
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/09好好说话.jpg" alt="好好说话" />好好说话
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </booklist>
+      <booklist title="你可能感兴趣">
+          <ul slot="bookcontent" class="bookt">
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/1好好学习.jpg" alt="好好学习" />好好学习
+                  </a>
+                  <div class="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/2从行动开始.jpg" alt="从行动开始" />从行动开始
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.2">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/3请停止无效努力.jpg" alt="请停止无效努力" />请停止无效努力
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/4结构思考力.jpg" alt="结构思考力" />结构思考力
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.6">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/5微习惯.jpg" alt="微习惯" />微习惯
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.8">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                      </span>
+                          <span>9.5</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/6让未来现在就来.jpg" alt="让未来现在就来" />让未来现在就来
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.1">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.3</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/7成功心理学.jpg" alt="成功心理学" />成功心理学
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/8内向者沟通圣经.jpg" alt="内向者沟通圣经" />内向者沟通圣经
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/9星星上的人.jpg" alt="星星上的人" />星星上的人
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="newbook">
+                  <a href="https://book.douban.com">
+                      <img src="./images/10彩色的中国.jpg" alt="彩色的中国" />彩色的中国
+                  </a>
+                  <div claass="item-rating">
+                      <div class="rank">
+                      <span class="rating-stars" data-rating="4.5">
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-full"></span>
+                          <span class="rating-star rating-star-small-gray"></span>
+                      </span>
+                          <span>8.9</span>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </booklist>
+      <selectbook tit="挑选图书">
+
+      </selectbook>
+  </div>
+
+  <div class="tabbar">
+        <ul>
+            <li class="tabbar-item">
+                <a href="index.html">
+                    <div><i class="iconfont icon-shouye"></i></div>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li class="tabbar-item on">
+                <a href="movie.html">
+                    <div><i class="iconfont icon-youji"></i></div>
+                    <span>书影音</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="broadcast.html">
+                    <div><i class="iconfont icon-ziyouanpai"></i></div>
+                    <span>广播</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="group.html">
+                    <div><i class="iconfont icon-zhinengyouhua"></i></div>
+                    <span>小组</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="my.html">
+                    <div><i class="iconfont icon-geren"></i></div>
+                    <span>我的</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="js/book.js" type="text/javascript">
+</script>
+</body>
+</html>
