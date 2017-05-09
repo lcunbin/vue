@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+.guding {
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    top: 0;
+}
+
+.titIcon {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.shuying {
+    width: 100%;
+    padding: 15px 38%;
+    background: white;
+}
+
+.titPic {
+    padding: 0 10px;
+    width: 50px;
+    height: 30px;
+}
+
+.daohan {
+    border-top: 1px #ccc solid;
+    width: 100%;
+    height: 40px;
+    background: white;
+}
+
+a {
+    color: gainsboro;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 1em;
+}
+
+.lianjie {
+    width: 20%;
+    height: 38px;
+    float: left;
+    margin: auto;
+    line-height: 40px;
+}
+
+.now {
+    color: #1afa29;
+}
+
+.now2 {
+    border-bottom: solid 2px #1afa29;
+}
+
+body {
+    background: gainsboro;
+}
+
+#move {
+    margin-top: 130px;
+}
+
+.move-hots {
+    margin-top: 20px;
+    width: 100%;
+    height: 340px;
+    background: white;
+}
+
+.move-hot {
+    padding-top: 20px;
+    list-style-type: none;
+    height: 220px;
+    background: white;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.smalltit {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 2%;
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.more {
+    margin-left: 60%;
+    color: #1afa29;
+    line-height: 20px;
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+}
+
+.move-hot li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 8px;
+}
+
+.move-hot li img {
+    height: 200px;
+}
+
+.why {
+    width: 100%;
+    margin-top: 20px;
+}

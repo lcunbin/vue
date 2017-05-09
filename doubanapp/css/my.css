@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: auto;
+    background: #f0f0f0;
+}
+
+.head {
+    text-align: center;
+    background: #13ce66;
+    height: 50px;
+}
+
+.head-text {
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.head-text-right {
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.img {
+    float: left;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+.zhong ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #13ce66;
+}
+
+.zhong {
+    background: #ffffff;
+    margin-left: 0;
+    height: 70px;
+    color: gray;
+}
+
+.zhong-left {
+    color: gray;
+    text-align: center;
+    margin-left: 0;
+    width: 49%;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    color: #13ce66;
+    border-bottom: solid 1px #13ce66;
+}
+
+.zhong-right {
+    color: gray;
+    text-align: center;
+    float: right;
+    margin-top: -71px;
+    width: 49%;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    border-bottom: solid 1px #13ce66;
+}
+
+li {
+    list-style-type: none;
+}
+
+.m {
+    padding-top: 50px;
+    height: 200px;
+    margin-top: 10px;
+    background: dodgerblue;
+}
+
+.d {
+    padding-top: 50px;
+    height: 200px;
+    background: #ff9224;
+    margin-top: 10px;
+}
+
+.m-left {
+    float: right;
+    margin-right: 11px;
+    margin-top: -40px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.m-center {
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.m-bottom {
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bottom {}
+
+.wei {
+    margin-top: 30px;
+    height: 2000px;
+    background: ghostwhite;
+}
+
+.wei-top-w {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: gray;
+}
+
+.wei-center-c {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 50%;
+    font-size: 40px;
+    color: gray;
+}

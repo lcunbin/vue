@@ -1,0 +1,174 @@
+﻿
+body{
+    margin:0;
+    padding:0;
+}
+#book{
+    overflow-x: auto;
+    height:100%;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    width:100%;
+    height:32px;
+  /*  margin-top:0px;*/
+    background-color: white;
+    border-bottom:1px solid silver;
+}
+.h2{
+    float:left;
+    margin-left:40%;
+}
+.imgs{
+    position:absolute;
+    /*top:22px;*/
+    right:10px;
+}
+.s1{
+    width:30px;
+    height:30px;
+    padding: 0 6px;
+}
+.s2{
+    width:30px;
+    height:30px;
+    padding: 0 6px;
+}
+.clear{
+    clear:both;
+}
+.navv{
+    padding:4px;
+    margin-top:30px;
+    text-align: center;
+    /*border-top:1px solid gainsboro;*/
+}
+.daolist{
+    list-style-type: none;
+    display:inline-block;
+    width:18%;
+    height:40px;
+    margin: 0 ;
+    padding: 0;
+    line-height:40px;
+
+}
+.read{
+    border-bottom:2px solid green;
+}
+.book-header{
+    width:100%;
+    height:30px;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+.h3{
+    margin-left:6px;
+    display: inline-block;
+}
+.more{
+    float:right;
+   /* margin-top:16px;*/
+    margin-right:10px;
+}
+.book-container {
+    width: 100%;
+    height:auto;
+}
+.book-content {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.bookdes{
+    width:1760px;
+    height:330px;
+    overflow-x: auto;
+}
+.bookt{
+    margin-top:20px;
+    margin-left:0px;
+    padding-left: 0px;
+    width:100%;
+    height:320px;
+
+
+}
+.newbook{
+    /*float:left;*/
+    margin-left:6px;
+    list-style-type: none;
+    width:160px;
+    height:300px;
+    display:inline-block;
+}
+img{
+    width:160px;
+    height:240px;
+}
+li a img{
+    overflow-x: auto;
+}
+.item-rating{
+    color:#aaa;
+
+}
+.rating-stars{
+    display:inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+}
+.rating-stars .rating-star{
+    display: inline-block;
+    margin-right:1px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+
+}
+.rating-star-small-full{
+   background-image: url(../images/xx.jpg);
+}
+.rating-star-small-full,.rating-star-small-half,.rating-star-small-gray{
+    width:10px;
+    height:10px;
+    background-size: 10px 10px;
+}
+.rating-star-small-gray{
+    background-image: url(../images/xxxh.jpg);
+}
+.xc{
+    width:100%;
+    height:56px;
+}
+.xuanchuan{
+    margin-top:-10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.des{
+    float:left;
+    width:180px;
+    margin-left:6px;
+}
+.clear{
+    clear:both;
+}
+.slist{
+    /*margin-left:-26px;*/
+    margin-left:2%;
+}
+.selelist{
+    list-style-type: none;
+    display: inline-block;
+    margin: 6px;
+    border:1px solid green;
+    height:36px;
+    line-height:36px;
+    border-radius:16px;
+    width:60px;
+    text-align: center;
+}

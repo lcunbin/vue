@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin: 0 auto;
+}
+#tit{
+    line-height: 50px;
+    text-align: center;
+    font-size: large;
+}
+.float{
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    top: 9px;
+}
+
+header{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    border-bottom: 1px silver solid;
+}
+#banner{
+    height: 170px;
+    width: 100%;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+#btnbox{
+    width: 100%;
+    height: 70px;
+}
+button{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+#content{
+    margin-bottom: 40px;
+}
+#movie{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.contentType{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.movieContent{
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.movieContent img{
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.mobieWordContent{
+    width: 100%;
+    height: 50px;
+}
+.movieTitle{
+    font-size: 18px;
+    text-align: left;
+}
+.movieDes{
+    width: 170px;
+    text-align: left;
+    font-size: 10px;
+    color: darkgrey;
+    display: inline-block;
+    float: left;
+}
+.fans{
+    float: left;
+    font-size: 10px;
+    color: silver;
+
+}
+.mobieWordContent img{
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+
+}
+#read{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+#music{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+#select{
+    height: 50px;
+    width: 100%;
+    border: solid 1px red;
+    position: fixed;
+    bottom: 0px;
+}
+/*tabbar*/
+
+.tabbar {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    border-top: 1px solid #e3e3e3;
+    font-size: 8px;
+}
+
+.tabbar-item {
+    height: 100%;
+}
+.tabbar li{
+    list-style: none;
+}
+.tabbar ul {
+
+    display: flex;
+}
+
+.tabbar-item {
+    flex: 1;
+    text-align: center;
+}
+
+.tabbar-item.on a {
+    color: #00b600;
+    color: #42bd56;
+}
+
+.tabbar-item a {
+    display: block;
+    height: 100%;
+    color: #aaa;
+    padding: 10% 0;
+}
+
+.iconfont {
+    font-size: 20px;
+}
+
+

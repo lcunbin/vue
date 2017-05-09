@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*header*/
+
+header {
+    background-color: white;
+    line-height: 40px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    border-bottom: 1px silver solid;
+}
+
+.topHead {
+    
+    text-align: center;
+    font-size: large;
+    height: 40px;
+
+}
+.rightIcon {
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    top: 9px;
+}
+.rightIcon img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/*section*/
+
+section {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    /*overflow-y: scroll;*/
+
+    /*margin-top: 50px;*/
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.midTitle {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.leftImage {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+.leftImage img {
+    width: 80%;
+}
+
+.rightText {
+    width: 40%;
+    float: left;
+}
+.rightText h3, .rightText h5 {
+    width: 80%;
+}
+
+.broadcast {
+    padding: 0 5% 0 5%;
+    margin-bottom: 30%;
+}
+
+.broadcast-item {
+    width: 100%;
+    display: inline-block;
+    box-shadow: 5px 5px 10px #888888;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.headPic {
+    width: 20%;
+    vertical-align: top;
+    float: left;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.headPic img {
+    width: 100%;
+}
+
+.rightArticle {
+    width: 75%;
+    float: left;
+    height: 100%;
+    text-align: left;
+    padding-right: 5%;
+}
+.name-focus {
+    margin-bottom: 3%;
+}
+
+.name-focus h6, .rightArticle span {
+    color: gray;
+}
+
+.rightArticle button {
+    font-size: small;
+    background-color: #42bd56;
+    float: right;
+    padding: 2% 10%;
+    margin-top: -17%;
+    border-radius: 10%;
+    color: white;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.bottomIcon{
+    width: 10%;
+    height: 10%;
+} 
+
+
+/*footer*/
+
+.select {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    bottom: 8%;
+    background: #fff;
+    padding: 3% 6%;
+    /*vertical-align: middle;*/
+    border-top: 1px silver solid;
+}
+
+.change {
+    /*background: url(../images/ic_reshare_flag.png) no-repeat left center;*/
+    height: 8%;
+    /*vertical-align: middle;*/
+    /*line-height: 8%;
+    vertical-align: middle;
+    padding-left: 30%;*/
+    /*width: 100%;*/
+    /*float: left;*/
+    /*margin-top: 5%;*/
+}
+
+.select img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.select button {
+    float: right;
+    /*margin-top: 2%;*/
+    /*margin-bottom: 0;*/
+    font-size: 1em;
+    padding: 1% 6%;
+    border-radius: 10%;
+    color: white;
+    background-color: #aaa;
+}
+
+.select span {
+    color: #42bd56;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+.tabbar {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    border-top: 1px solid #e3e3e3;
+    font-size: 8px;
+}
+
+.tabbar ul,
+.tabbar-item {
+    height: 100%;
+}
+
+.tabbar ul {
+    display: flex;
+}
+
+.tabbar-item {
+    flex: 1;
+    text-align: center;
+}
+
+.tabbar-item.on a {
+    color: #00b600;
+    color: #42bd56;
+}
+
+.tabbar-item a {
+    display: block;
+    height: 100%;
+    color: #aaa;
+    padding: 10% 0;
+}
+
+.iconfont {
+    font-size: 20px;
+}
