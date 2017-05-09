@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>select组件</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link href="css/group.css" rel="stylesheet">
+    <script src="js/vue.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="tit">小组
+            <div class="float">
+                <img src="images/search.png" width="30px" height="30px">
+                <img src="images/message.png" width="30px" height="30px">
+            </div>
+        </div>
+    </header>
+    <div id="banner"><img src="images/banner.png" width="100%" height="170px"></div>
+    <div id="btnbox">
+        <button disabled="disabled">精选推荐</button>
+    </div>
+    <div id="content">
+        <div id="movie">
+            <p>影视</p>
+            <div class="movieContent">
+                <img src="images/vuejs.jpeg">
+                <div class="mobieWordContent">
+                    <div class="movieTitle">Vue.js</div>
+                    <div class="movieDes">Vue.js（读音 /vjuː/，类似于 view） 是一套构建用户界面的渐进式框架。</div>
+                    <div class="fans">82588人</div>
+                    <img src="images/select.png" class="select">
+                </div>
+            </div>
+            <div class="movieContent">
+                <img src="images/vuejs.jpeg">
+                <div class="mobieWordContent">
+                    <div class="movieTitle">Vue.js</div>
+                    <div class="movieDes">Vue.js（读音 /vjuː/，类似于 view） 是一套构建用户界面的渐进式框架。</div>
+                    <div class="fans">82588人</div>
+                    <img src="images/select.png" class="select">
+                </div>
+            </div>
+            <div class="movieContent">
+                <img src="images/vuejs.jpeg">
+                <div class="mobieWordContent">
+                    <div class="movieTitle">Vue.js</div>
+                    <div class="movieDes">Vue.js（读音 /vjuː/，类似于 view） 是一套构建用户界面的渐进式框架。</div>
+                    <div class="fans">82588人</div>
+                    <img src="images/select.png" class="select">
+                </div>
+            </div>
+        </div>
+        <content-component :list="list[1]"></content-component>
+        <content-component :list="list[2]"></content-component>
+        <content-component :list="list[3]"></content-component>
+        <content-component :list="list[4]"></content-component>
+        <content-component :list="list[5]"></content-component>
+        <!--<div id="city">-->
+
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div id="school">-->
+
+        <!--</div>-->
+        <!--<div id="workplace">-->
+
+        <!--</div>-->
+    </div>
+    <div class="tabbar">
+        <ul>
+            <li class="tabbar-item">
+                <a href="index.html">
+                    <div><i class="iconfont icon-shouye"></i></div>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="movie.html">
+                    <div><i class="iconfont icon-youji"></i></div>
+                    <span>书影音</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="broadcast.html">
+                    <div><i class="iconfont icon-ziyouanpai"></i></div>
+                    <span>广播</span>
+                </a>
+            </li>
+            <li class="tabbar-item on">
+                <a href="group.html">
+                    <div><i class="iconfont icon-zhinengyouhua"></i></div>
+                    <span>小组</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="my.html">
+                    <div><i class="iconfont icon-geren"></i></div>
+                    <span>我的</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="js/group.js"></script>
+</body>
+
+</html>

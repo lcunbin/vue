@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+     minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/vue.js"></script>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/movie.css">
+    <title>Title</title>
+
+</head>
+
+<body>
+    <div id="toubu">
+        <div class="guding">
+            <div class="shuying">
+                <h2 class="tit">书影音</h2>
+                <div class="titIcon">
+                    <img src="images/sousuo.png" class="titPic">
+                    <img src="images/xinxi.png" class="titPic">
+                </div>
+            </div>
+            <div class="daohan">
+                <div class="lianjie now2"><a class="now" href="#">电影</a></div>
+                <div class="lianjie"><a href="book.html">读书</a></div>
+                <div class="lianjie"><a href="#">电视</a></div>
+                <div class="lianjie"><a href="#">同城</a></div>
+                <div class="lianjie"><a href="#">音乐</a></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="move">
+        <custom-select v-bind:list="list1[0]"></custom-select>
+        <div class="why">
+            <img src="images/why.png" width="100%" height="200px">
+        </div>
+        <custom-select v-bind:list="list1[1]"></custom-select>
+    </div>
+    <div class="tabbar">
+        <ul>
+            <li class="tabbar-item">
+                <a href="index.html">
+                    <div><i class="iconfont icon-shouye"></i></div>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li class="tabbar-item on">
+                <a href="movie.html">
+                    <div><i class="iconfont icon-youji"></i></div>
+                    <span>书影音</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="broadcast.html">
+                    <div><i class="iconfont icon-ziyouanpai"></i></div>
+                    <span>广播</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="group.html">
+                    <div><i class="iconfont icon-zhinengyouhua"></i></div>
+                    <span>小组</span>
+                </a>
+            </li>
+            <li class="tabbar-item">
+                <a href="my.html">
+                    <div><i class="iconfont icon-geren"></i></div>
+                    <span>我的</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="js/movie.js">
+</script>
+
+</html>
