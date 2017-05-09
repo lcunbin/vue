@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>广播</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/broadcast.css">
+    <script src="js/vue.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="topHead">
+            <h3>广播</h3>
+            <div class="rightIcon">
+                <img src="images/ic_status_search_user.png" >
+                <img src="images/ic_chat_green.png">
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="content">
+            <div class="midTitle">
+                <div class="leftImage">
+                    <img src="images/ic_status_anonymous_header.png"/>
+                </div>
+                <div class="rightText">
+                    <h3>发现有趣的人</h3>
+                    <h5>关注他们，发现更大的世界</h5>
+                </div>
+            </div>
+            <div class="broadcast">
+                <div v-for="item in broadcastList" class="broadcast-item">
+                    <div class="headPic">
+                        <img src="images/avatar_male_30.png"/>
+                    </div>
+                    <div class="rightArticle">
+                        <div class="name-focus">
+                            <h3>{{item.name}}</h3>
+                            <h6>{{item.focusCount}}人关注</h6>
+                        </div>
+                        <button>关注</button>
+                        <p>{{item.article}}</p>
+                        <p class="pic">
+                            <img :src="item.pic">
+                        </p>
+                        <a href="#">
+                            <img class="bottomIcon" src="images/ic_liked.png"/>
+                            <span>{{item.good}}</span>
+                        </a>
+                        <a href="#">
+                            <img class="bottomIcon" src="images/ic_group_comment_0.png"/>
+                            <span>{{item.comment}}</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="select">
+            <!-- <div class="change"> -->
+                <img src="images/ic_reshare_flag.png">
+                <span>换一批</span>
+            <!-- </div> -->
+            <button disabled="disabled">我选好了</button>
+        </div>
+        <div class="tabbar">
+            <ul>
+                <li class="tabbar-item">
+                    <a href="index.html">
+                        <div><i class="iconfont icon-shouye"></i></div>
+                        <span>首页</span>
+                    </a>
+                </li>
+                <li class="tabbar-item">
+                    <a href="movie.html">
+                        <div><i class="iconfont icon-youji"></i></div>
+                        <span>书影音</span>
+                    </a>
+                </li>
+                <li class="tabbar-item on">
+                    <a href="broadcast.html">
+                        <div><i class="iconfont icon-ziyouanpai"></i></div>
+                        <span>广播</span>
+                    </a>
+                </li>
+                <li class="tabbar-item">
+                    <a href="group.html">
+                        <div><i class="iconfont icon-zhinengyouhua"></i></div>
+                        <span>小组</span>
+                    </a>
+                </li>
+                <li class="tabbar-item">
+                    <a href="my.html">
+                        <div><i class="iconfont icon-geren"></i></div>
+                        <span>我的</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/broadcast.js"></script>
+</body>
+
+</html>
